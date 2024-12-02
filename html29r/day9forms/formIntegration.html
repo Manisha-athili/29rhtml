@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form integration</title>
+    <style>
+        h1{
+            margin-bottom: 50px;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            background-color: rgb(7, 10, 3);
+            border: 2px solid whitesmoke;
+            padding: 0 150px 100px 150px;
+            border-radius: 5px;
+            color: whitesmoke;
+        }
+        body:hover{
+            box-shadow: 1px 2px 3px white;
+        }
+        input{
+            margin-left: 50px;
+            border-radius: 5px;
+            border: 2 solid whitesmoke ;
+            padding: 7px;
+            margin: 4px;
+        }
+        input:hover{
+            box-shadow: 1px 2px 5px white;
+        }
+        .submit{
+            background-color: darkblue;
+            color: aliceblue;
+            width: 100px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        /* .form{
+            border: 2 solid whitesmoke;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Form Integration</h1>
+    <form target="_blank" action="https://formsubmit.co/manishaathili1126@gmail.com" method="POST" >
+    <table rowpadding="50px"  >
+        <div>
+        <tr><td><label for="username">Username:</label></td>
+        <td><input type="text" name="name" id="username" placeholder="Enter username"></td></tr>
+        <tr><td><label for="Email">Email:</label></td>
+        <td><input type="email" name="" id="Email" placeholder="Enter email"></td></tr>
+        <tr><td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" placeholder="Enter password"></td></tr>
+        <tr><td><label for="number">Mobile number:</label></td>
+        <td><input type="number" id="number" placeholder="Enter Mobile number"></td></tr>
+    </div>
+    </table>
+    <br><br>
+         <button type="submit" class="submit">Submit</button>
+
+</form>
+    
+</body>
+</html>

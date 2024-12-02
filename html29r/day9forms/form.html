@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        ol{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: black;
+            color: whitesmoke;
+            padding: 50px;
+            font-size: larger;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>for and id have relation</li>
+        <li>name and value have relation</li>
+        <li>in radio type name should be same</li>
+    </ol>
+    <form action="">
+
+        <table>
+            <tr>
+                <td><label for="user1name">Firstname</label></td>
+                <td><input type="text" id="user1name" name="Firstnameis" value=""></td>
+            </tr>
+            <tr>
+                <td><label for="user2name">Lastname</label></td>
+                <td> <input type="text"id="user2name" name="Lastnameis" value=""></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email </label></td>
+                <td><input type="email" id="mail" name="gmailis" value=""></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="passwordis" id="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Contact number</label></td>
+                <td><input type="number" id="mobile" name="numberis" value=""></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">document</label>
+                    <input type="image" src="" alt="">
+                </td>
+            </tr>
+        </table>
+
+            <table>
+            <tr>
+                <td><label for="Gender">Gender</label></td> 
+                <td><input type="radio" name="gender" id="Gender1" value="Male"></td>
+                <td><label for="Gender1">Male</label></td>
+                <td><input type="radio" name="gender" id="Gender2" value="Female"></td>
+                <td><label for="Gender2">Female</label></td>
+                <td><input type="radio" name="gender" id="Gender3" value="Other"></td>
+                <td><label for="Gender3">Others</label></td>
+            </tr>
+            
+
+            <tr>
+                <td><label for="role">Select your city</label></td>
+                
+                <td><input type="radio" id="role1" name="cityis" value="Hyderabad"></td>
+                <td><label for="role1">Hyderabad</label></td>
+                
+                <td><input type="radio" id="role2" name="cityis" value="Bangulore"></td>
+                <td><label for="role2">Bangulore</label></td>
+
+                <td><input type="radio" id="role3" name="cityis" value="Mumbai"></td>
+                <td><label for="role3">Mumbai</label></td>
+
+                <td><input type="radio" id="role4" name="cityis" value="Channai"></td>
+                <td><label for="role4">Channai</label></td>
+
+                <td><input type="radio" id="role5" name="cityis" value="Pune"></td>
+                <td><label for="role5">Pune</label></td>
+
+
+            </tr>
+            <tr>
+                    <td><label for="skilluknow">Skills</td>
+
+                        <td><input type="checkbox" name="skills" id="skilluknow1" value="html"></td> 
+                        <!-- if user doesnt give value then v provide value  -->
+                        <td> <label for="skilluknow1">html</label></td>
+                        
+                        <td><input type="checkbox" name="skills" id="skilluknow2" value="css"></td>
+                        <td> <label for="skilluknow2">css</label></td>
+
+
+                        <td><input type="checkbox" name="skills" id="skilluknow3" value="javascript"></td>
+                        <td> <label for="skilluknow3">javascript</label></td>
+
+
+                        <td><input type="checkbox" name="skills" id="skilluknow4" value="reactjs"></td>
+                        <td> <label for="skilluknow4">reactjs</label></td>
+
+
+                        <td><input type="checkbox" name="skills" id="skilluknow5" value="SQL"></td>
+                        <td> <label for="skilluknow5">SQL</label></td>
+
+
+                        <td><input type="checkbox" name="skills" id="skilluknow6" value="nodejs"></td>
+                        <td> <label for="skilluknow6">nodejs</label></td>
+
+
+                        <td><input type="checkbox" name="skills" id="skilluknow7" value="Expressjs"></td>
+                        <td> <label for="skilluknow7">Expressjs</label></td>
+
+            </tr>
+
+        
+            </table>
+
+            <br><br>
+       <label for="submit1"></label>
+       <input type="submit" id="submit2">
+        
+    </form>
+    
+</body>
+</html>

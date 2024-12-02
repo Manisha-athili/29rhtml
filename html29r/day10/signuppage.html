@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+     <!-- font font-awesome CDN link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+    <style>
+        boby{
+            font-family: Arial, sans-serif;
+            color: #ded9d9;
+            font-size: 20px;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+        }
+
+        h1{
+            color: #4CAF50;
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            text-align: center;
+        }
+        .button{
+            height: 40px;
+            width: 300px;
+            margin: 10px 0;
+            padding: 5px;
+            border: 2px solid #dad5d5;
+            border-radius: 4px;
+        }
+        .button:hover{
+            box-shadow: 2px 2px 5px  #edd9d9 ;
+        }
+        .middle{
+            margin: 20px 0; 
+            padding-left: 150px;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        .listitems{
+            padding: 20px;
+            text-decoration: none;    
+        }
+        .loginbutton{
+            background-color: rgba(94, 240, 20, 0.936);
+            color: #f4f4f9;
+            font-size: larger;
+
+        }
+        .skip{
+            padding: 10px;
+            font-size: 14px;
+            color: #f4f4f9;
+            background-color: #4CAF50;
+            border: 1px solid #4CAF50;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        a{
+            text-decoration: none;
+        }
+      .paddingleft{
+        padding-left: 90px;
+      }
+
+    </style>
+</head>
+<body class="flex">
+    <form action="./succespage.html" method="get">
+        <h1>Sign up</h1>
+
+        <div class="flex">
+        <label for="firstname"></label>
+        <input type="text" name="" id="" placeholder="User name" class="button">
+
+        <label for="Mobilenumber"></label>
+        <input type="number" name="" id="" placeholder="Mobile number" class="button">
+
+        <label for="password"></label>
+        <input type="password" name="" id="" placeholder="Password" class="button">
+
+        <label for=""></label>
+        <input type="password" name="" id="" placeholder="Confirm Password" class="button" >
+
+        <span><label for="terms"></label>
+        <input type="checkbox" name="" id="terms">I agree to the terms and conditions</span>
+
+        <label for="signup"></label>
+        <input type="submit" value="Signup" id="signup" class="skip">
+    
+        </div>
+
+    <div class="footer"> 
+    <div class="middle ">
+        <p>Already have an account..?<a href="loginpage.html">login</a></p>
+
+        <div ><button type="button" class="skip"><a href="homepage.html" class="skip">Skip Signup</a></button></div>
+
+    </div  class="">
+        <span class="paddingleft">or</span>
+        <p>Continue with</p>
+
+        
+            <ul class="content">
+                <li><i class="fa-solid fa-envelope"></i><a href="#" class="listitems">Email</a></li>
+                <li><i class="fa-brands fa-facebook"></i><a href="#" class="listitems">Facebook</a></li>
+                <li><i class="fa-brands fa-google"></i><a href="#" class="listitems">Google</a></li>
+                <li> <i class="fa-brands fa-square-twitter"></i><a href="#" class="listitems">Twitter</a></li>
+            </ul>
+        
+    </div>
+</form>
+    
+</body>
+</html>
